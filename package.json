@@ -17,6 +17,7 @@
     "ejs": "2.6.1",
     "express": "4.16.3",
     "jquery": "3.3.1",
+    "mongodb": "3.1.4",
     "morgan": "1.9.0",
     "nodemon": "1.18.4",
     "popper.js": "1.14.4",
@@ -40,7 +41,7 @@
     "env": {
       "NODE_ENV": "development",
       "PORT": 4000,
-      "DEBUG": "app"
+      "DEBUG": "app,app:*"
     }
   }
 }
